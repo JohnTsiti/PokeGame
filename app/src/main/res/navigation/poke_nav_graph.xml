@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/poke_nav_graph"
+    app:startDestination="@id/randomEncounterFragment">
+
+
+    <fragment
+        android:id="@+id/randomEncounterFragment"
+        android:name="com.example.pokegame.ui.fragments.RandomEncounterFragment"
+        android:label="fragment_random_encounter"
+        tools:layout="@layout/fragment_random_encounter" >
+        <action
+            android:id="@+id/action_randomEncounterFragment_to_pokemonFragment"
+            app:destination="@id/pokemonFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/myPokemonFragment"
+        android:name="com.example.pokegame.ui.fragments.MyPokemonFragment"
+        android:label="fragment_my_pokemon"
+        tools:layout="@layout/fragment_my_pokemon" >
+        <action
+            android:id="@+id/action_myPokemonFragment_to_pokemonFragment"
+            app:destination="@id/pokemonFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pokedexEntriesFragment"
+        android:name="com.example.pokegame.ui.fragments.PokedexEntriesFragment"
+        android:label="fragment_pokedex_entries"
+        tools:layout="@layout/fragment_pokedex_entries" >
+        <action
+            android:id="@+id/action_pokedexEntriesFragment_to_pokemonFragment"
+            app:destination="@id/pokemonFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pokemonFragment"
+        android:name="com.example.pokegame.ui.fragments.PokemonFragment"
+        android:label="fragment_pokemon"
+        tools:layout="@layout/fragment_pokemon" />
+
+
+</navigation>

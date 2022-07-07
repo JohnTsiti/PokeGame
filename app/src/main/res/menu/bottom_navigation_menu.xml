@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/randomEncounterFragment"
+        android:icon="@drawable/ic_grass"
+        android:title="Explore" />
+
+    <item
+        android:id="@+id/myPokemonFragment"
+        android:icon="@drawable/ic_backpack"
+        android:title="My Pokemon" />
+
+    <item
+        android:id="@+id/pokedexEntriesFragment"
+        android:icon="@drawable/ic_pokedex"
+        android:title="Pokedex" />
+</menu>
