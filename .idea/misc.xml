@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/PCLOVE/StudioProjects/PokeGame/app/src/main/res/layout/fragment_random_encounter.xml" value="0.2695035460992908" />
         <entry key="..\:/Users/Studio/AndroidStudioProjects/MyLearningApp/app/src/main/res/layout/activity_main.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Studio/AndroidStudioProjects/MyLearningApp/app/src/main/res/layout/fragment_my_pokemon.xml" value="0.47324414715719065" />
         <entry key="..\:/Users/Studio/AndroidStudioProjects/MyLearningApp/app/src/main/res/layout/fragment_pokedex_entries.xml" value="0.47324414715719065" />
@@ -13,7 +14,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

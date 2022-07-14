@@ -62,10 +62,13 @@ class RandomEncounterFragment : Fragment() {
                 is Resource.Error -> {
                     response.message?.let { message ->
                         Log.e(Constants.TAG, "An error occurred: $message")
+                        Toast.makeText(activity,"An error occurred: $message",Toast.LENGTH_SHORT).show()
+
                     }
+
                 }
                 is Resource.Loading -> {
-
+                    Toast.makeText(activity,"Loading ",Toast.LENGTH_SHORT).show()
                 }
             }
 
